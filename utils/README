@@ -1,0 +1,7 @@
+create_file_attributes.py:
+
+Ariane needs a file containing hc, Cs_w, sc_w as global
+attributes. 
+Rutgers ROMS does not save hc, Cs_w, sc_w as attributes
+but rather as variables. This utility solves the problem
+by writing a file that Ariane will be happy with.
