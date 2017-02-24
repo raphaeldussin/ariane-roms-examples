@@ -1,0 +1,283 @@
+ 
+  If Ariane results are used in your publication(s),
+ please feel free to reference Ariane and to send us 
+        your publication references (thanks).
+ 
+         http://www.univ-brest.fr/lpo/ariane
+ 
+ =====================================================
+ =             -o0)  ARIANE v2.2.8_04  (0o-             =
+ =====================================================
+ 
+        (Ariane is governed by the CeCILL license)
+                (http://www.cecill.info)
+ 
+ =====================
+ = Machine precision =
+ =====================
+   -            iprec:           4
+   -            rprec:           8
+   -            qprec:           8
+   -     range(iprec):           9
+   -     range(rprec):         307
+   - Precision(rprec):          15
+   -   Spacing(rprec):   2.2204460492503131E-016
+   -   EPSILON(rprec):   2.2204460492503131E-016
+ 
+ ============
+ = NAMELIST =
+ ============
+  --- Successful Opening ---
+ 
+  - Reading ARIANE item:
+    - key_roms            =  T
+    - roms_global_attribute=  T
+    - key_symphonie       =  F
+    - key_B2C_grid        =  F
+    - key_sequential      =  T
+    - key_alltracers      =  T
+    - key_ascii_outputs   =  T
+    - key_iU_jV_kW        =  F
+    - mode                = qualitative
+    - forback             = backward
+    - bin                 = nobin
+    - nmax                =       300000
+    - tunit               =    86400.000000000000     
+    - ntfic               =            5
+    - tcyc                = "value will be computed later"
+    - key_approximatesigma (OBSOLETE and FORCED)= F
+    - key_computesigma    = T
+    - zsigma              =   1000.0000000000000     
+    - memory_log          = T
+    - output_netcdf_large_file= F
+ 
+  - Reading SEQUENTIAL item:
+    - key_interp_temporal = F
+    - maxcycles           =           1
+ 
+  - Reading ROMSPARAM:
+    - xi_rho              =         182
+    - eta_rho             =         482
+    - s_w                 =          51
+    - time                =           1
+ 
+  - Reading ZONALCRT:
+    - c_dir_zo            = ./inputs
+    - c_prefix_zo         = CCS1-RD.NVOcobalt23R_
+    - ind0_zo             =            1
+    - indn_zo             =           10
+    - maxsize_zo          =            5
+    - c_suffix_zo         = _avg.nc
+    - nc_var_zo           = u
+    - nc_att_mask_zo      = NONE
+ 
+  - Reading MERIDCRT:
+    - c_dir_me            = ./inputs
+    - c_prefix_me         = CCS1-RD.NVOcobalt23R_
+    - ind0_me             =            1
+    - indn_me             =           10
+    - maxsize_me          =            5
+    - c_suffix_me         = _avg.nc
+    - nc_var_me           = v
+    - nc_att_mask_me      = NONE
+ 
+  - Reading TEMPERAT:
+    - c_dir_te            = ./inputs
+    - c_prefix_te         = CCS1-RD.NVOcobalt23R_
+    - ind0_te             =            1
+    - indn_te             =           10
+    - maxsize_te          =            5
+    - c_suffix_te         = _avg.nc
+    - nc_var_te           = temp
+    - nc_att_mask_te      = NONE
+ 
+  - Reading SALINITY:
+    - c_dir_sa            = ./inputs
+    - c_prefix_sa         = CCS1-RD.NVOcobalt23R_
+    - ind0_sa             =            1
+    - indn_sa             =           10
+    - maxsize_sa          =            5
+    - c_suffix_sa         = _avg.nc
+    - nc_var_sa           = salt
+    - nc_att_mask_sa      = NONE
+ 
+  - Reading ZETA:
+    - c_dir_ze            = ./inputs
+    - c_prefix_ze         = CCS1-RD.NVOcobalt23R_
+    - ind0_ze             =            1
+    - indn_ze             =           10
+    - maxsize_ze          =            5
+    - c_suffix_ze         = _avg.nc
+    - nc_var_ze           = zeta
+    - nc_att_mask_ze      = NONE
+ 
+  - Reading GLOBALATT:
+    - dir_glbatt          = ../../utils/
+    - fn_glbatt           = Grid_vert_CCS1.nc
+    - nc_glbatt_hc        = hc
+    - nc_glbatt_sc_w      = sc_w
+    - nc_glbatt_Cs_w      = Cs_w
+ 
+  - Reading GRDROMS:
+    - dir_grd_roms        = /Volumes/P1/ROMS-Inputs/CCS1/grid
+    - fn_grd_roms         = CCS_7k_0-360_fred_grd.nc
+    - nc_var_lon_rho_roms = lon_rho
+    - nc_var_lon_u_roms   = lon_u
+    - nc_var_lat_rho_roms = lat_rho
+    - nc_var_lat_v_roms   = lat_v
+    - nc_var_pm_roms      = pm
+    - nc_var_pn_roms      = pn
+    - nc_var_h_roms       = h
+    - nc_var_mask_rho_roms    = mask_rho
+ 
+  - Reading QUALITATIVE item:
+    - delta_t             =   86400.000000000000     
+    - frequency           =           1
+    - nb_output           =          50
+    - key_region          = F
+    - mask                = T
+ 
+  - More:
+      - tcyc                =   432000.00000000000     
+ 
+                           -
+                          ---
+                        -------
+                      -----------
+                 -<>- QUALITATIVE -<>-
+                      -----------
+                        -------
+                          ---
+                           -
+ 
+ =======================
+ = criter0 source code =
+ =======================
+    !- ADD AT THE END OF EACH LINE "!!ctr0" -!
+    criter0=.TRUE.        !!ctr0
+ 
+ =======================
+ = criter1 source code =
+ =======================
+    !- ADD AT THE END OF EACH LINE "!!ctr1" -!
+    criter1=.FALSE.                 !! ctr1
+ 
+ =======================
+ = criter2 source code =
+ =======================
+    criter2=.FALSE.    !!ctr2
+ 
+ ========================
+ = Opening Output files =
+ ========================
+   - ASCII files -
+     - init.sav
+     - final.sav
+     - output
+     - traj.txt
+ 
+ ===================
+ = INPUT GRID DATA =
+ ===================
+ 
+ -> Netcdf File - Successful Opening -/Volumes/P1/ROMS-Inputs/CCS1/grid/CCS_7k_0-360_fred_grd.nc - ncid =        65536
+ TRIM(nc_var_name) = lon_u
+  - lon_u: max    249.98033831358504        min    219.85085256401766     
+ TRIM(nc_var_name) = lat_v
+  - lat_v: max    50.309476134979114        min    18.643397597747963     
+ TRIM(nc_var_name) = lon_rho
+  - lon_rho: max    250.01172469976558       min    219.81695702158214     
+ TRIM(nc_var_name) = lat_rho
+  - lat_rho: max    50.335585045727640       min    18.616438935287334     
+ TRIM(nc_var_name) = mask_rho
+  - mask_rho: max    1.0000000000000000       min    0.0000000000000000     
+ TRIM(nc_var_name) = pn
+  - pn: max    1.4842666614524417E-004  min    1.4242771448307729E-004
+  - e2t (c): max    7021.1054332323511       min    6737.3338361008628     
+  - e2u (c): max    7021.1054332323511       min    6737.3338361008628     
+ TRIM(nc_var_name) = pm
+  - pm: max    1.4791308758277722E-004  min    1.4210058038589544E-004
+  - e1t (c): max    7037.2689350342553       min    6760.7269670465494     
+  - e1v (c): max    7037.2686973702830       min    6760.7269670465494     
+ TRIM(nc_var_name) = h
+  - h: max    5117.0410278054169       min    10.000000000000000     
+ 
+ =====================================================
+ = ALLOCATE INPUT GEOPHYSICAL DATA (sequential mode) =
+ =====================================================
+ 
+ ===============================
+ = INITIAL PARTICULE POSITIONS =
+ ===============================
+        (read or computed)
+   - Computing lmax in qualitative mode...
+     - lmax =          -1
+ 
+ =================================================
+ = Create and Define NetCDF ouput POSITIONS file =
+ =================================================
+ --- Successful creation of ariane_trajectories_qualitative.nc ---      131072
+   - Dimensions in qualitative are:
+     - ntraj     =           5
+     - nb_output =          51
+ 
+   - Initial Positions in x are defined           1
+   - Initial Positions in y are defined           2
+   - Initial Positions in z are defined           3
+   - Initial Positions in t are defined           4
+   - Initial Ages are defined           5
+   - Initial transports are defined           6
+   - Final Positions in x are defined           7
+   - Final Positions in y are defined           8
+   - Final Positions in z are defined           9
+   - Final Positions in t are defined          10
+   - Final Ages are defined
+   - Final transports are defined          12
+   - Positions in x for trajectories are defined          13
+   - Positions in y for trajectories are defined          14
+   - Positions in z for trajectories are defined          15
+   - Positions in time for trajectories are defined          16
+   - Temperatures for trajectories are defined          17
+   - Salinities for trajectories are defined          18
+   - Densities for trajectories are defined          19
+   --- Dimension definitions are finished ---
+ 
+ ==================================
+ = ENTER >>>>> MAIN LOOP ON CYCLE =
+ ==================================
+ 
+ =====================================================
+ = Searching in Netcdf files the time limit indices  =
+ =====================================================
+ 
+ - Zonal current file -
+     - file name indice:            0
+     - file time indice:     71934698
+ 
+ - Meridional current file -
+     - file name indice:            0
+     - file time indice:   1588094838
+ 
+ - Temperature file -
+     - file name indice:            0
+     - file time indice:   1588094836
+ 
+ - Salinity file -
+     - file name indice:            0
+     - file time indice:   1588094836
+ 
+ - Zeta file (roms)-
+     - file name indice:            0
+     - file time indice:   1588094836
+ 
+ ================================
+ = Indice searches are finished =
+ ================================
+
+ >>>>>>>>>>>>>>>>>>>>>>>>
+ mod_netcdf: sub_open_netcdf_file: problem to open netcdf file!
+  path = ./inputs/CCS1-RD.NVOcobalt23R_00000_avg.nc
+ >>  Cycle :            0
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ---------------------------------
+ - READ INPUT DATA :          -1 -
