@@ -15,5 +15,7 @@ fidout = nc.Dataset(fileout,'w',format='NETCDF3_CLASSIC')
 fidout.hc = hc
 fidout.sc_w = s_w
 fidout.Cs_w = cs_w
+fidout.Vtransform=2
+fidout.Vstretching=4
 fidout.close()
 

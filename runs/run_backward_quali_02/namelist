@@ -41,7 +41,7 @@ maxcycles=1
   maxsize_zo   = 5,
   c_suffix_zo  = '_avg.nc',
   nc_var_zo    = 'u',
-  nc_att_mask_zo = 'NONE',
+  nc_att_mask_zo = '_FillValue',
 /
 &MERIDCRT
   c_dir_me     = './inputs',
@@ -51,7 +51,7 @@ maxcycles=1
   maxsize_me   = 5,
   c_suffix_me  = '_avg.nc',
   nc_var_me    = 'v',
-  nc_att_mask_me = 'NONE',
+  nc_att_mask_me = '_FillValue',
 /
 &TEMPERAT
   c_dir_te     = './inputs',
@@ -61,7 +61,7 @@ maxcycles=1
   maxsize_te   = 5,
   c_suffix_te  = '_avg.nc',
   nc_var_te    = 'temp',
-  nc_att_mask_te = 'NONE',
+  nc_att_mask_te = '_FillValue',
 /
 &SALINITY
   c_dir_sa     = './inputs',
@@ -71,7 +71,7 @@ maxcycles=1
   maxsize_sa   = 5,
   c_suffix_sa  = '_avg.nc',
   nc_var_sa    = 'salt',
-  nc_att_mask_sa = 'NONE',
+  nc_att_mask_sa = '_FillValue',
 /
 &ZETA
   c_dir_ze     = './inputs',
@@ -81,7 +81,7 @@ maxcycles=1
   maxsize_ze   = 5,
   c_suffix_ze  = '_avg.nc',
   nc_var_ze    = 'zeta',
-  nc_att_mask_ze = 'NONE',
+  nc_att_mask_ze = '_FillValue',
 /
 &GLOBALATT
   dir_glbatt           = '../../utils/',
