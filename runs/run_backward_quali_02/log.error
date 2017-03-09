@@ -59,7 +59,7 @@
     - xi_rho              =         182
     - eta_rho             =         482
     - s_w                 =          51
-    - time                =           1
+    - time                =          10
  
   - Reading ZONALCRT:
     - c_dir_zo            = ./inputs
@@ -132,13 +132,13 @@
  
   - Reading QUALITATIVE item:
     - delta_t             =   86400.000000000000     
-    - frequency           =           1
-    - nb_output           =          50
+    - frequency           =           5
+    - nb_output           =          10
     - key_region          = F
     - mask                = T
  
   - More:
-      - tcyc                =   432000.00000000000     
+      - tcyc                =   4320000.0000000000     
  
                            -
                           ---
@@ -211,7 +211,7 @@
  ===============================
         (read or computed)
    - Computing lmax in qualitative mode...
-     - lmax =          -1
+     - lmax =          10
  
  =================================================
  = Create and Define NetCDF ouput POSITIONS file =
@@ -219,7 +219,7 @@
  --- Successful creation of ariane_trajectories_qualitative.nc ---      131072
    - Dimensions in qualitative are:
      - ntraj     =           5
-     - nb_output =          51
+     - nb_output =          11
  
    - Initial Positions in x are defined           1
    - Initial Positions in y are defined           2
@@ -251,33 +251,877 @@
  =====================================================
  
  - Zonal current file -
-     - file name indice:            0
-     - file time indice:     71934698
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+     - file name indice:           10
+     - file time indice:            1
  
  - Meridional current file -
-     - file name indice:            0
-     - file time indice:   1588094838
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+     - file name indice:           10
+     - file time indice:            1
  
  - Temperature file -
-     - file name indice:            0
-     - file time indice:   1588094836
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+     - file name indice:           10
+     - file time indice:            1
  
  - Salinity file -
-     - file name indice:            0
-     - file time indice:   1588094836
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+     - file name indice:           10
+     - file time indice:            1
  
  - Zeta file (roms)-
-     - file name indice:            0
-     - file time indice:   1588094836
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+     - file name indice:           10
+     - file time indice:            1
  
  ================================
  = Indice searches are finished =
  ================================
 
- >>>>>>>>>>>>>>>>>>>>>>>>
- mod_netcdf: sub_open_netcdf_file: problem to open netcdf file!
-  path = ./inputs/CCS1-RD.NVOcobalt23R_00000_avg.nc
- >>  Cycle :            0
- <<<<<<<<<<<<<<<<<<<<<<<<
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  PARTICULE TRAJECTORIES will be computed:
+     - number of trajectories         :            5
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
  ---------------------------------
- - READ INPUT DATA :          -1 -
+ - READ INPUT DATA :          10 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.32732626795768738     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.34749090671539307     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1157964468002319     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    18.962589263916016     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00010_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -9.1836594045162201E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -../../utils//Grid_vert_CCS1.nc - ncid =       196608
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -../../utils//Grid_vert_CCS1.nc - ncid =       196608
+  Vtransform does not exits, setting to 1 
+  Vstretching does not exits, setting to 1 
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+  ------ ZW0 is computing ------
+  - hc:    250.00000000000000     
+  - SC_W:    0.0000000000000000       -2.0000000000000018E-002  -4.0000000000000036E-002  -5.9999999999999942E-002  -7.9999999999999960E-002  -9.9999999999999978E-002 -0.12000000000000000      -0.14000000000000001      -0.16000000000000003      -0.17999999999999994      -0.19999999999999996      -0.21999999999999997      -0.23999999999999999      -0.26000000000000001      -0.28000000000000003      -0.29999999999999993      -0.31999999999999995      -0.33999999999999997      -0.35999999999999999      -0.38000000000000000      -0.40000000000000002      -0.42000000000000004      -0.43999999999999995      -0.45999999999999996      -0.47999999999999998      -0.50000000000000000      -0.52000000000000002      -0.54000000000000004      -0.56000000000000005      -0.58000000000000007      -0.59999999999999998      -0.62000000000000000      -0.64000000000000001      -0.65999999999999992      -0.67999999999999994      -0.69999999999999996      -0.71999999999999997      -0.73999999999999999      -0.76000000000000001      -0.78000000000000003      -0.80000000000000004      -0.82000000000000006      -0.83999999999999997      -0.85999999999999999      -0.88000000000000000      -0.90000000000000002      -0.92000000000000004      -0.93999999999999995      -0.95999999999999996      -0.97999999999999998       -1.0000000000000000     
+  - CS_w:    0.0000000000000000       -4.1483062504851022E-005  -1.6673761689318497E-004  -3.7819486554238065E-004  -6.7995739270745523E-004  -1.0778758793129149E-003  -1.5796581937530109E-003  -2.1950125508666892E-003  -2.9358269146196980E-003  -3.8163872976069396E-003  -4.8536380740872758E-003  -6.0674878596135833E-003  -7.4811648993043456E-003  -9.1216262191835505E-003  -1.1020024989376041E-002  -1.3212240567026896E-002  -1.5739475452643075E-002  -1.8648922801566738E-002  -2.1994507043998874E-002  -2.5837698401227394E-002  -3.0248399408333744E-002  -3.5305897665934984E-002  -4.1099873569822150E-002  -4.7731444243036075E-002  -5.5314214756916495E-002  -6.3975294310868916E-002  -7.3856217586270353E-002  -8.5113689174476440E-002  -9.7920040976520045E-002 -0.11246325806994964      -0.12894638732988539      -0.14758609528224359      -0.16861008853324541      -0.19225305466437714      -0.21875072933186496      -0.24833165586084005      -0.28120619140081321      -0.31755234976807784      -0.35749818412216755      -0.40110063899886095      -0.44832118300695867      -0.49899911254111234      -0.55282422293622679      -0.60931157407938341      -0.66778226791211059      -0.72735534059953200      -0.78695674898177170      -0.84535153690275278      -0.90120401016866281      -0.95316752981030595       -1.0000000000000000     
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ 
+ --- Initial positions are saving:       131072
+   - Initial X is done
+   - Initial Y is done
+   - Initial Z is done
+   - Initial Time is done
+   - Initial Age is done
+   - Initial Transport is done
+ ---------------------------------
+ - READ INPUT DATA :           9 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.35653537511825562     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.37029281258583069     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1156586408615112     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    19.113784790039062     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00009_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -9.5799155533313751E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           8 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.34479922056198120     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.35438159108161926     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1158138513565063     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    22.091600418090820     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00008_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -8.3760142326354980E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           7 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.36053439974784851     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.42581033706665039     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1160913705825806     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    23.883117675781250     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00007_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -8.6041413247585297E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           6 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.50443297624588013     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.58710497617721558     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1166105270385742     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    20.047651290893555     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00006_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -9.7692579030990601E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           5 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.49554517865180969     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.59371763467788696     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1172183752059937     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    21.670417785644531     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00005_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -9.4323344528675079E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           4 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.42995321750640869     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.45785292983055115     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1169881820678711     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    21.825973510742188     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00004_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -7.4317499995231628E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           3 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.37205359339714050     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.42452347278594971     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1168498992919922     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    21.441135406494141     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00003_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -5.9003800153732300E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           2 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.39364808797836304     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.45300206542015076     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1168502569198608     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    23.045516967773438     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00002_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -6.9312646985054016E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ ---------------------------------
+ - READ INPUT DATA :           1 -
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = u
+  - u: max    9.9999999338158125E+036  min  -0.45123875141143799     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = v
+  - v: max    9.9999999338158125E+036  min  -0.46197542548179626     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = temp
+  - temp: max    9.9999999338158125E+036  min    1.1165896654129028     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = salt
+  - salt: max    9.9999999338158125E+036  min    22.661724090576172     
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+ ------ Density is computing -------
+  - Density: max    1.1923831605415441E+177  min    4.9765216921279034     
+ 
+ -> Netcdf File - Successful Opening -./inputs/CCS1-RD.NVOcobalt23R_00001_avg.nc - ncid =       196608
+ TRIM(nc_var_name) = zeta
+  - zeta: max    9.9999999338158125E+036  min   -5.9018600732088089E-002
+ -> Netcdf File - Successful Closing - ncid =      196608
+ 
+ 
+   ------  We assume that ZW0 is constant in time. ------
+  - ZW0 : max    0.0000000000000000       min   -5117.0410278054169     
+ 
+  ------ ZZ_WW is computing ------
+  - ZZ_WW : max    9.9999999338158125E+036  min   -1.0957933640701961E+038
+ 
+  ------ E3T scale factor is computing ------
+  - E3T : max    4.9900440319726390E+036  min   -9.3043379501575111E+036
+ 
+  ------ Zonal transport is computing ------
+  - U Transport: max    3.5020608921890630E+077  min   -6.5298738556573602E+077
+ 
+  ------ Meridional transport is computing ------
+  - V Transport: max    3.5116280432286200E+077  min   -6.5477125773042795E+077
+ 
+  ------ Vertical transport is computing ------
+  - W Transport: max    8.1111012569876547E+078  min   -8.0832628693493560E+078
+ 
+ ==================================
+ = MAIN LOOP ON CYCLE >>>>>> EXIT =
+ ==================================
+ 
+ -----------------------
+ = Writing Output Data =
+ -----------------------
+ 
+ --- Trajectory positions are saving:       131072
+   - X is done
+   - Y is done
+   - Z is done
+   - Time is done
+   - Temperatures is done
+   - Salinities is done
+   - Densities is done
+ 
+ --- Final positions are saving:       131072
+   - Final X is done
+   - Final Y is done
+   - Final Z is done
+   - Final Time is done
+   - Final Age is done
+   - Final Transport is done
+ 
+ -------------------------------
+ = Close Positions NetCDF File =
+ -------------------------------
+   - unit number      131072
+ 
+ ---------------------
+ = Deallocate Memory =
+ ---------------------
+ 
+  Ariane max allocatable memory is (in MB):    565.53951263427734     
+ 
+ =====================================================
+ =             -o0)  ARIANE Finish  (0o-             =
+ =====================================================
+ 
+  If Ariane results are used in your publication(s),
+ please feel free to reference Ariane and to send us 
+        your publication references (thanks).
+ 
+         http://www.univ-brest.fr/lpo/ariane

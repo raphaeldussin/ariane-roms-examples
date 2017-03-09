@@ -19,9 +19,9 @@
 /
 &QUALITATIVE
   delta_t   = 86400.,
-  frequency = 1,
-  nb_output = 50,
-  mask      = .TRUE.,
+  frequency = 5,
+  nb_output = 100,
+  mask      = .FALSE.,
 /
 &SEQUENTIAL
 maxcycles=1
@@ -30,13 +30,13 @@ maxcycles=1
   xi_rho   =182,
   eta_rho  =482,
   s_w      =51,
-  time     =1,
+  time     =100,
 /
 &ZONALCRT
   c_dir_zo     = './inputs',
   c_prefix_zo  = 'CCS1-RD.NVOcobalt23R_',
   ind0_zo      = 1,
-  indn_zo      = 10,
+  indn_zo      = 100,
   maxsize_zo   = 5,
   c_suffix_zo  = '_avg.nc',
   nc_var_zo    = 'u',
@@ -46,7 +46,7 @@ maxcycles=1
   c_dir_me     = './inputs',
   c_prefix_me  = 'CCS1-RD.NVOcobalt23R_',
   ind0_me      = 1,
-  indn_me      = 10,
+  indn_me      = 100,
   maxsize_me   = 5,
   c_suffix_me  = '_avg.nc',
   nc_var_me    = 'v',
@@ -56,7 +56,7 @@ maxcycles=1
   c_dir_te     = './inputs',
   c_prefix_te  = 'CCS1-RD.NVOcobalt23R_',
   ind0_te      = 1,
-  indn_te      = 10,
+  indn_te      = 100,
   maxsize_te   = 5,
   c_suffix_te  = '_avg.nc',
   nc_var_te    = 'temp',
@@ -66,7 +66,7 @@ maxcycles=1
   c_dir_sa     = './inputs',
   c_prefix_sa  = 'CCS1-RD.NVOcobalt23R_',
   ind0_sa      = 1,
-  indn_sa      = 10,
+  indn_sa      = 100,
   maxsize_sa   = 5,
   c_suffix_sa  = '_avg.nc',
   nc_var_sa    = 'salt',
@@ -76,7 +76,7 @@ maxcycles=1
   c_dir_ze     = './inputs',
   c_prefix_ze  = 'CCS1-RD.NVOcobalt23R_',
   ind0_ze      = 1,
-  indn_ze      = 10,
+  indn_ze      = 100,
   maxsize_ze   = 5,
   c_suffix_ze  = '_avg.nc',
   nc_var_ze    = 'zeta',

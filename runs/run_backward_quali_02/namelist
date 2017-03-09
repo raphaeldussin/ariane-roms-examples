@@ -20,8 +20,8 @@
 /
 &QUALITATIVE
   delta_t   = 86400.,
-  frequency = 1,
-  nb_output = 50,
+  frequency = 5,
+  nb_output = 10,
   mask      = .TRUE.,
 /
 &SEQUENTIAL
@@ -31,7 +31,7 @@ maxcycles=1
   xi_rho   =182,
   eta_rho  =482,
   s_w      =51,
-  time     =1,
+  time     =10,
 /
 &ZONALCRT
   c_dir_zo     = './inputs',
