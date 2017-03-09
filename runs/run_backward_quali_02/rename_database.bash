@@ -5,7 +5,7 @@
 ROOTDIR=/Volumes/P7/ROMS/CCS1
 CONFCASE=CCS1-RD.NVOcobalt23R
 FYEAR=1996
-LYEAR=1998
+LYEAR=2006
 
 #---------------------------------------------------------
 
