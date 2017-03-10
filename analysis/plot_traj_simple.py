@@ -30,7 +30,7 @@ def plot_traj_simple(datadir):
 	bmap.plot(lon_rho[0,:],lat_rho[0,:],'k--')
 	bmap.plot(lon_rho[:,-1],lat_rho[:,-1],'k--')
 	bmap.plot(lon_rho[:,0],lat_rho[:,0],'k--')
-	bmap.scatter(traj_lon,traj_lat,c=traj_time)
+	bmap.scatter(traj_lon[:,::10],traj_lat[:,::10],c=traj_time[:,::10])
 	plt.show()
 
 
